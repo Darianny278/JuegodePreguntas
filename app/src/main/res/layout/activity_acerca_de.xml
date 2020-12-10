@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acerca_de">
+
+
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="324dp"
+        android:layout_height="570dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#030407"
+        android:text=" Acerca de este juego: \n  Demuestra tu inteligencia con el juego de preguntas de distintos
+temas mas entretenido! \n Responde preguntas sobre tus tópicos favoritos, entrando a cada
+tema, y pon a prueba tus saberes en un tiempo determinado. \n
+¿Te gustan los juegos de adivinanza? Pues, ¿que esperas para jugar? Disfruta jugando este fantastico juego de preguntas 'Pegasus 5'. \n \n
+Datos del juego: \n -Lanzamiento: 3/04/2020 \n
+-Desarrolladores: Darianny Peguero, Javier Morillo, Robinson Mejia, Jose Portes y Verlyn Luna."
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

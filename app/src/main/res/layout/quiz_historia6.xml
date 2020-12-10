@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF99"
+    tools:context="com.example.renglones.Historia.QuizHistoria6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp">
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#070000"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp"
+        android:text="Question"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/borde_redondo"
+        android:padding="8dp"
+        android:text="1"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/borde_redondo"
+        android:padding="8dp"
+        android:text="2"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/borde_redondo"
+        android:padding="8dp"
+        android:text="3"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/tiempo"
+        android:layout_width="161dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="40dp"
+        android:text=""
+        android:textColor="#F10606"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PEGASUS 5</string>
+    <string name="item1"> ¿Cómo Jugar? </string>
+    <string name="item2"> Acerca de... </string>
+    <string name="item3"> Compartir App </string>
+    <string name="item4"> Cerrar Sesion </string>
+</resources>

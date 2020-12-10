@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomm"
+    tools:context=".ActivityBienvenida">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/btnModoClasico"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/otherroullete"
+            android:text="modo clasico"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.078" />
+
+        <Button
+            android:id="@+id/btnDeportes"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/sport"
+            android:text="deportes"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.225" />
+
+        <Button
+            android:id="@+id/btnCine"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/movie"
+            android:text="cine"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.357" />
+
+        <Button
+            android:id="@+id/btnCiencia"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/science"
+            android:text="ciencia"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/history"
+            android:text="Historia"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.64" />
+
+        <Button
+            android:id="@+id/btnGeografia"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/geography"
+            android:text="Geografia"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99"
+        app:srcCompat="@drawable/home" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

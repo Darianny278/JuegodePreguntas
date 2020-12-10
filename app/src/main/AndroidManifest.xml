@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.renglones">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".acerca_de"></activity>
+        <activity android:name=".Ruleta.Ruleta">
+            <intent-filter>
+                <action android:name="com.example.renglones.ruleta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogInRegister.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogInRegister.RegisterActivity" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".ActivityBienvenida" />
+        <activity android:name=".Geografia.Geografia">
+            <intent-filter>
+                <action android:name="com.example.renglones.Geografia.Geografia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Geografia.QuizActivity" />
+        <activity android:name=".Geografia.QuizActivity2" />
+        <activity android:name=".Geografia.QuizActivity3" />
+        <activity android:name=".Geografia.QuizActivity4" />
+        <activity android:name=".Geografia.QuizActivity5" />
+        <activity android:name=".Geografia.QuizActivity6" />
+        <activity android:name=".Geografia.QuizActivity7" />
+        <activity android:name=".Geografia.QuizActivity8" />
+        <activity android:name=".Geografia.QuizActivity9" />
+        <activity android:name=".Ciencia.Ciencia">
+            <intent-filter>
+                <action android:name="com.example.renglones.Ciencia.Ciencia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ciencia.QuizCiencia1" />
+        <activity android:name=".Ciencia.QuizCiencia2" />
+        <activity android:name=".Ciencia.QuizCiencia3" />
+        <activity android:name=".Ciencia.QuizCiencia4" />
+        <activity android:name=".Ciencia.QuizCiencia5" />
+        <activity android:name=".Ciencia.QuizCiencia6" />
+        <activity android:name=".Ciencia.QuizCiencia7" />
+        <activity android:name=".Ciencia.QuizCiencia8" />
+        <activity android:name=".Ciencia.QuizCiencia9" />
+        <activity android:name=".cine.Cine">
+            <intent-filter>
+                <action android:name="com.example.renglones.cine.Cine" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cine.QuizCine1" />
+        <activity android:name=".cine.QuizCine2" />
+        <activity android:name=".cine.QuizCine3" />
+        <activity android:name=".cine.QuizCine4" />
+        <activity android:name=".cine.QuizCine5" />
+        <activity android:name=".cine.QuizCine6" />
+        <activity android:name=".cine.QuizCine7" />
+        <activity android:name=".cine.QuizCine8" />
+        <activity android:name=".cine.QuizCine9" />
+        <activity android:name=".deportes.Deportes">
+            <intent-filter>
+                <action android:name="com.example.renglones.deportes.Deportes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".deportes.QuizDeporte1" />
+        <activity android:name=".deportes.QuizDeporte2" />
+        <activity android:name=".deportes.QuizDeporte3" />
+        <activity android:name=".deportes.QuizDeporte4" />
+        <activity android:name=".deportes.QuizDeporte5" />
+        <activity android:name=".deportes.QuizDeporte6" />
+        <activity android:name=".deportes.QuizDeporte7" />
+        <activity android:name=".deportes.QuizDeporte8" />
+        <activity android:name=".deportes.QuizDeporte9" />
+        <activity android:name=".Historia.Historia">
+            <intent-filter>
+                <action android:name="com.example.renglones.Historia.Historia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Historia.QuizHistoria1" />
+        <activity android:name=".Historia.QuizHistoria2" />
+        <activity android:name=".Historia.QuizHistoria3" />
+        <activity android:name=".Historia.QuizHistoria4" />
+        <activity android:name=".Historia.QuizHistoria5" />
+        <activity android:name=".Historia.QuizHistoria6" />
+        <activity android:name=".Historia.QuizHistoria7" />
+        <activity android:name=".Historia.QuizHistoria8" />
+        <activity android:name=".Historia.QuizHistoria9" />
+        <activity android:name=".Ruleta.QuizRuleta" />
+        <activity android:name=".Practicar.QuizPracticar" />
+    </application>
+
+</manifest>
